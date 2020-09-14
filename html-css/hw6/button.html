@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #212121;
+        }
+
+        .button {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-sizing: border-box;
+            width: 212px;
+            height: 45px;
+            padding-left: 18px;
+            padding-right: 18px;
+            background-color: #fff;
+            border: 1px solid #212121;
+            border-radius: 23px;      
+        }
+
+      	.button-text {
+                color: #212121;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 3.6px;
+                text-transform: uppercase;
+            }
+
+        .button-arrow {
+            opacity: 0;
+        }
+
+        .button:hover {
+            box-shadow: 0px 3px 5px 1px rgba(33, 33, 33, 0.35);
+        }
+
+        .button:hover .button-arrow {
+            opacity: 1;
+        }
+    </style>
+</html>
+<body>
+    <a class="button" href="https://geekbrains.ru/" target="_blank">
+        <p class="button-text">order us</p>
+        <img class="button-arrow" src="img/arrow.svg">
+    </a>
+</body>
+</html>
