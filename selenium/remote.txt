@@ -1,4 +1,4 @@
-Как быстро развернуть Seleinuim, если есть Docker на другой машине.
+Как быстро развернуть Selenium, если есть Docker на другой машине?
 
 На стороне Docker команда:
 docker run -d -e SCREEN_WIDTH=1366 -e SCREEN_HEIGHT=768 -e SCREEN_DEPTH=24 -e SCREEN_DPI=74 -p 4444:4444 -p 5990:5900 -v /dev/shm:/dev/shm selenium/standalone-firefox-debug
